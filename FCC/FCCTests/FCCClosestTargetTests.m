@@ -28,7 +28,7 @@
 - (void)ctdDidCompleteClosestTargetTest:(NSString*)target latency:(double)latency {
 }
   
-- (void)ctdTestDidFail {
+- (void)ctdTestDidFail:(NSString*)target {
 }
 
 - (void)ctdDidSendPacket:(NSUInteger)bytes {
